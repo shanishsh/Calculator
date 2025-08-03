@@ -1,0 +1,77 @@
+@font-face {
+    font-family:"Digital-7" ;
+    src: url("digital-7/digital-7.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'digital-7';
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    height: 500px;
+    position: relative;
+    top: 0px;
+}
+.box{
+    z-index: 3;
+    position: absolute;
+    top: 90px;
+    background-color:transparent;
+    width: 200px;
+    height: 56px;
+    text-align: end;
+    font-size: 49px;
+    overflow-inline:scroll;
+    padding: 0px 10px;
+
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+img{
+    position: absolute;
+    top: 0px;
+}
+button{
+    padding: 3px 12px;
+    margin-right: 5px;
+    border: none;
+    width: 32px;
+    background-color: transparent;
+    color: transparent;
+}
+.row-1{
+    position: absolute;
+    top: 338.5px;
+    left: 55px;
+}
+.row-2{
+    position: absolute;
+    top: 374px;
+    left: 55px;
+}
+.row-3{
+    position: absolute;
+    top: 410px;
+    left: 55px;
+}
+.row-4{
+    position: absolute;
+    top: 445px;
+    left: 55px;
+}
